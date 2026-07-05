@@ -7,8 +7,8 @@ def Program1():
         host="localhost",
         port=3306,
         user="root",
-        password="2496",
-        database="python_video"
+        password="",
+        database=""
     )
 
     mycursor = mydb.cursor()
