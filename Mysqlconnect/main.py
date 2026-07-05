@@ -7,7 +7,7 @@ mydb = mysql.connector.connect(
     port=3306,
     user="root",
     password="",
-    database="python_video"
+    database=""
 )
 
 mycursor = mydb.cursor()
